@@ -41,6 +41,7 @@ class Content extends Component {
         //Ajax call to api to initialize data or to register event or subscribe to websocket
         console.log('In CDM:' + this.props.myNumber)
     }
+
     //4. componentWillReceiveprops
     //static method sit in Stack as singleton to allow you to extract states
     static getDerivedStateFromProps(props, state) {

@@ -10,12 +10,14 @@ import WeatherComponent from './components/lifecycle/WeatherComponent';
 import Context from './components/contextapi/Context';
 import Button from './components/hooks/UseStateDemo';
 import DataLoader from './components/hooks/DataLoader';
+import TestUseFetch from './components/hooks/TestUseFetch';
+import RefsDemo from './components/intercomp/RefsDemo';
 
 function App() {
   return (
     <div className="bg-warning">
       <Header city='San Francisco'/>
-        <DataLoader/>
+       <RefsDemo/>
     <Footer/>
   </div>
   );
@@ -29,3 +31,5 @@ export default App;
 //<WeatherComponent/>
 //<Context/>
 //<Button/>
+//<DataLoader/>
+//<TestUseFetch/> 
